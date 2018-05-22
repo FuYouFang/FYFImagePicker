@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FYFImagePicker (0.1.0):
+    - SnapKit
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - FYFImagePicker (from `../`)
+
+EXTERNAL SOURCES:
+  FYFImagePicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FYFImagePicker: b7fce60e3d880aeb36b503a74337c1dc098dcf3a
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: 6415de4a4e1b5987419a7c3d59d71cfa69acc5db
+
+COCOAPODS: 1.4.0

@@ -1,24 +1,25 @@
 //
 //  ViewController.swift
-//  FYFImagePicker
+//  Example
 //
-//  Created by FuYouFang on 05/22/2018.
-//  Copyright (c) 2018 FuYouFang. All rights reserved.
+//  Created by fuyoufang on 2018/5/19.
+//  Copyright © 2018 fuyoufang. All rights reserved.
 //
 
 import UIKit
+import FYFImagePicker
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = .orange
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let controller = ImagePickerNavigationController.init(maxImageCount: 9)
+        present(controller, animated: true)
     }
-
 }
 
