@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FYFImagePicker_Example' do
+  pod 'FYFImagePicker', :path => '../'
+
+  target 'FYFImagePicker_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
